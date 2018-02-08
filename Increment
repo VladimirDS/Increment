@@ -1,0 +1,16 @@
+// Increment.cpp: Показывает работу инкрементов
+
+#include "stdafx.h"
+#include <iostream>
+using namespace std;
+
+int main() {
+	int x = 5;
+	int a = x++;
+	int b = ++x;
+	cout << "a = " << a;
+	cout << "b = " << b;
+
+	getchar();
+	return 0;
+}
